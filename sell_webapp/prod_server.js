@@ -2,7 +2,7 @@ var express = require('express');
 var config = require('./config/index');
 // process：（全局对象）  Node所处的当前进程
 var port = process.env.PORT || config.build.port;
-var ip = '45.78.60.34';
+var ip = '67.216.214.113';
 
 // 创建 express 实例
 var app = express();
